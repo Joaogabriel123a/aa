@@ -1,0 +1,80 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    max-width: 1000px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    margin: 0;
+    color: #2c3e50; 
+}
+
+header p {
+    margin: 0;
+    color: #7f8c8d; 
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    background-color: #000000; 
+    color: #fff;
+    padding: 10px;
+    border-radius: 4px;
+    margin: 0;
+}
+
+.personal-info, .professional-summary, .work-experience, .education, .skills, .projects, .contact {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background: #fafafa;
+}
+
+.job, .degree, .project {
+    margin-bottom: 15px;
+}
+
+.job h3, .degree h3, .project h3 {
+    color: #e74c3c; 
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background: #ecf0f1;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-style: italic;
+    color: #7f8c8d;
+}
